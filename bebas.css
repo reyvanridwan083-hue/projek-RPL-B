@@ -40,6 +40,16 @@ body{
     font-weight: 400;
     color:#fff;
 }
+
+.rey{
+    width: 200px;
+    height: 70px;
+    color: var(--pr-hijau);
+}
+.col-md image{
+    width: 44px;
+    height: 44px;
+}
 /* navbar end */
 
 /* style hero */
@@ -52,6 +62,9 @@ body{
     font-weight: 700;
     color: #fff;
     line-height: 70px;
+}
+.col-12 h1{
+  color:var(--pr-hijau);
 }
 /* and style hero */
 .text-hero p {
@@ -70,9 +83,9 @@ body{
   color: var(--pr-hijau);
   border: none;
 }
-/* layanan */
 #our-service{
-    height: 100vh;
+    padding: 100px 0;
+    width: 100%;
 }
 .container-img{
     display: flex;
@@ -81,12 +94,143 @@ body{
     height: 70px;
     width: 70px;
     border-radius: 50%;
-    background-color: #8b7a7a;
+    background-color:var(--pr-hijau);
+
 }
 .card-layanan{
+    width: 380px;
+    height: 313px;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.card-layanan h4{
+    font-size: 24;
+    font-weight: 500;
+    color:var(--pr-hijau);
+}
+.card-layanan p{
+    color: #000;
+}
+/* ini hover card */
+.card-layanan:hover{
     height: 313px;
     padding: 40px;
     background: linear-gradient(160deg, var(--pr-hijau), #000000e4);
     border-radius: 5px;
 }
-/* end lay */
+.card-layanan:hover h4{
+    font-size: 24;
+    font-weight: 500;
+    color:#fff;
+}
+.card-layanan:hover p{
+    color: #fff;
+}
+
+.card-layanan:hover .container-img{
+    background-color: #fff;
+}
+
+/* end hver card */#our-service{
+    padding: 100px 0;
+    width: 100%;
+}
+.container-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color:var(--pr-hijau);
+
+}
+.card-layanan{
+    width: 380px;
+    height: 313px;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.card-layanan h4{
+    font-size: 24;
+    font-weight: 500;
+    color:var(--pr-hijau);
+}
+.card-layanan p{
+    color: #000;
+}
+/* ini hover card */
+.card-layanan:hover{
+    height: 313px;
+    padding: 40px;
+    background: linear-gradient(160deg, var(--pr-hijau), #000000e4);
+    border-radius: 5px;
+}
+.card-layanan:hover h4{
+    font-size: 24;
+    font-weight: 500;
+    color:#fff;
+}
+.card-layanan:hover p{
+    color: #fff;
+}
+
+.card-layanan:hover .container-img{
+    background-color: #fff;
+}
+
+/* end hver card */
+/* style temukan rumah */
+#temukan-rumah{
+    height: 100vh;
+    background-image: url(image/interior\ grid.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+}
+
+.head-title h1{
+    color: #fff;
+    font-size: 48px;
+    font-weight: 500;   
+}
+.head-title p{
+    font-size: 28px;
+    font-weight: 400px;
+    color: #fff;
+}
+.btn-tab{
+    height: 42px;
+    color: #000;
+    background-color: rgb(255, 255, 255,0.5);
+    border: none;
+    padding: 10px 20px 10px 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.jual{
+    border-radius: 10px 0 0 0;
+}
+.property{
+    border-radius: 0 10px 0 0;
+}
+.btn-tab.active{
+    height: 42px;
+    color: var(--pr-hijau);
+    background-color: #fff;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    font-size: 18px;
+    font-weight: 400;
+
+    transition: all 0.3s ease-in;
+}
+
+/* end style temukan rumah */
